@@ -1,6 +1,6 @@
 import fsearch
 
-nums = [0,1,2,3,4,5]
-target = 5
+nums = [-1,0,3,5,9,12]
+target = 2
 result = fsearch.binary_search(nums, target)
 print(result)
