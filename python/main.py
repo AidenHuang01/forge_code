@@ -1,7 +1,9 @@
 import fsearch
 import pq
+import fsort
+from fsort import quick_sort
+nums = [2,1,4,5,3]
 
-nums = [-1,0,3,5,9,12]
-target = 2
-result = fsearch.binary_search(nums, target)
-print(result)
+res = quick_sort(nums)
+
+print(res)
